@@ -1,0 +1,36 @@
+* {margin:0;padding:0;box-sizing:border-box;font-family:"Ubuntu","Aller",sans-serif;}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+#logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+#logo-wrapper * {
+    padding: 1rem;
+    margin: 10px;
+}
+#logo-inner {
+    z-index: 9999;
+}
+#logo-text {
+    font-size: 60px;
+}
+#links * {
+    display: inline-block;
+    padding: 16px;
+}
