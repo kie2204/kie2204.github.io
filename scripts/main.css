@@ -63,3 +63,8 @@ p {
     margin: 1rem 0;
     line-height: 1.5;
 }
+
+img {
+    max-width: 100%;
+    padding: 16px;
+}
