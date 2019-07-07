@@ -7,8 +7,9 @@ const text = document.getElementById("logo-text");
 
 console.log("starting intro...")
 
+window.scrollTo(0,0);
 document.body.style.overflow = "hidden";
-wrapper.style.height = window.innerHeight + "px";
+wrapper.style.height = window.innerHeight-60 + "px";
 logo.style.position = "absolute";
 text.style.position = "absolute";
 text.style.opacity = "0";
