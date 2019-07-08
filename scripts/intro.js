@@ -14,7 +14,7 @@ logo.style.position = "absolute";
 text.style.position = "absolute";
 text.style.opacity = "0";
 text.style.fontSize = "120px";
-logo.style.height = "192px";
+logo.style.height = "144px";
 
 window.onload = function() {
     setTimeout(function(){
@@ -29,10 +29,10 @@ window.onload = function() {
         text.style.transition = "padding-left 0.5s, opacity 0.5s";
         text.style.opacity = "1";
 
-        totalWidth = text.offsetWidth + logo.offsetWidth + 50;
+        totalWidth = text.offsetWidth + logo.offsetWidth + 60;
 
-        logo.style.paddingRight = totalWidth/2+120 + "px";
-        text.style.paddingLeft = totalWidth/2-120 + "px";
+        logo.style.paddingRight = totalWidth/2+130 + "px";
+        text.style.paddingLeft = totalWidth/2-130 + "px";
 
         setTimeout(function(){
             text.style.transition = "font-size 0.5s";
@@ -49,7 +49,7 @@ window.onload = function() {
             text.style.right = "initial";
 
             text.style.fontSize = "60px";
-            logo.style.height = "96px";
+            logo.style.height = "72px";
 
             wrapper.style.transition = "height 0.5s";
             wrapper.style.height = "96px";
