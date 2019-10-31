@@ -1,0 +1,128 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="window-wrapper">
+            <div id="window-inner">
+                <div id="window-content">
+                    <h1>Kulturkristendom</h1>
+                    <br>
+                    <a class="chapter" href="3/1.html">
+                        <span class="chapter-no">
+                            1
+                        </span>
+                        <div class="chapter-desc">
+                            <h2>Folkekirken</h2>
+                            <p>...</p>
+                        </div>
+                    </a>
+                    <a class="chapter" href="3/2.html">
+                        <span class="chapter-no">
+                            2
+                        </span>
+                        <div class="chapter-desc">
+                            <h2>Historie om kirken</h2>
+                            <p>...</p>
+                        </div>
+                    </a>
+                    <a class="chapter" href="3/3.html">
+                        <span class="chapter-no">
+                            3
+                        </span>
+                        <div class="chapter-desc">
+                            <h2>Kristendom i grundloven</h2>
+                            <p>...</p>
+                        </div>
+                    </a>
+                    <a class="chapter" href="3/4.html">
+                        <span class="chapter-no">
+                            4
+                        </span>
+                        <div class="chapter-desc">
+                            <h2>Helligdage</h2>
+                            <p>...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+    body {
+        margin: 0;
+        background-image: url("../images/cover3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+    }
+</style>
+
+<style>
+    .chapter {
+        display: flex;
+        align-items: center;
+        background-color: #ddd;
+        height: 96px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+        margin: 24px 0;
+    }
+    .chapter-no {
+        background-color: #ccc;
+        font-size: 48px;
+        padding: 19px;
+        border-radius: 5px 0 0 5px;
+    }
+    .chapter-desc {
+        margin-left: 16px;
+    }
+    h2 {
+        font-size: 28px;
+        margin: 12px 0;
+        font-weight: 400;
+    }
+    .chapter-desc p {
+        margin: 12px 0;
+    }
+</style>
+
+<style>
+        body {
+            font-family: Roboto, sans-serif;
+        }
+        #window-wrapper {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            top: 0;
+            overflow: scroll;
+            transition: opacity 0.2s, top 0.2s;
+        }
+        #window-inner {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+            max-width: 1000px;
+            margin-top: 200px;    
+        }
+        #window-content {
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            min-height: 100%;
+        }
+        h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: 300;
+        }
+        p {
+            font-size: 16px;    
+        }
+</style>

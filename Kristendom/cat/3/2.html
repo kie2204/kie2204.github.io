@@ -1,0 +1,96 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="window-wrapper">
+            <div id="window-inner">
+                <div id="window-content">
+                    <h1>Folkekirken</h1>
+                    <br>
+                    <p>
+                        Indtil gennemførelsen af den lutherske reformation i Danmark i 1536 havde den romersk-katolske kirke nydt stor autonomi og været økonomisk privilegeret. Med indførelsen af reformationen blev kirkernes og klostrenes jorde underlagt kongemagten, og der blev oprettet en statskirke med kongen som den øverste myndighed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+    body {
+        margin: 0;
+        background-image: url("../../images/cover3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+    }
+</style>
+
+<style>
+    .chapter {
+        display: flex;
+        align-items: center;
+        background-color: #ddd;
+        height: 96px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+        margin: 24px 0;
+    }
+    .chapter-no {
+        background-color: #ccc;
+        font-size: 48px;
+        padding: 19px;
+        border-radius: 5px 0 0 5px;
+    }
+    .chapter-desc {
+        margin-left: 16px;
+    }
+    h2 {
+        font-size: 28px;
+        margin: 12px 0;
+        font-weight: 400;
+    }
+    .chapter-desc p {
+        margin: 12px 0;
+    }
+</style>
+
+<style>
+        body {
+            font-family: Roboto, sans-serif;
+        }
+        #window-wrapper {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            top: 0;
+            overflow: scroll;
+            transition: opacity 0.2s, top 0.2s;
+        }
+        #window-inner {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+            max-width: 1000px;
+            margin-top: 200px;    
+        }
+        #window-content {
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            min-height: 100%;
+        }
+        h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: 300;
+        }
+        p {
+            font-size: 16px; 
+            line-height: 2;  
+        }
+</style>
