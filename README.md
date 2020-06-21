@@ -1,2 +1,2 @@
-# github sites
+# github pages
 Yeah, that's it.
