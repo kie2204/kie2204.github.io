@@ -16,8 +16,12 @@ text.style.opacity = "0";
 text.style.fontSize = "120px";
 logo.style.height = "144px";
 
+console.log("logo styles set")
+
 window.onload = function() {
+    console.log("page loaded, starting in 500ms")
     setTimeout(function(){
+        console.log("scroll animation initiated")
         text.style.display = "initial";
 
         logo.style.left = "50%";
@@ -54,8 +58,11 @@ window.onload = function() {
             wrapper.style.transition = "height 0.5s";
             wrapper.style.height = "96px";
             
+            console.log("styles reset")
+            
             setTimeout(function(){
                 document.body.style.overflow = "auto";
+                console.log("scroll unblocked, done :)")
             }, 500);
         }, 1000);
     }, 500);
